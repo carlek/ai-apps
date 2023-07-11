@@ -13,7 +13,7 @@ ChatGPT Prompt engineering.
 
 Assembly AI 
 - get_transcription.py
-  - simple stug to transcript text from audio file
+  - simple stub to transcript text from audio file
   
 
 
