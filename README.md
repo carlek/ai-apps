@@ -9,4 +9,11 @@ ChatGPT Prompt engineering.
 - contains python notebooks for the course 
 - https://learn.deeplearning.ai/chatgpt-prompt-eng/
 
+### assemblyai
+
+Assembly AI 
+- get_transcription.py
+  - simple stug to transcript text from audio file
+  
+
 
