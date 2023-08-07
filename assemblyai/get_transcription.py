@@ -3,8 +3,12 @@
 # Import the AssemblyAI module
 import assemblyai as aai
 
-# Your API token is already set here
-aai.settings.api_key = "d184929b02e844f2b92a4b88746f3ae8"
+# Your API token is set in your .env file
+import os
+from dotenv import load_dotenv, find_dotenv
+_ = load_dotenv(find_dotenv())
+
+aai.settings.api_key = os.getenv('ASSEMBLYAI_API_KEY')
 
 # Create a transcriber object.
 transcriber = aai.Transcriber()
