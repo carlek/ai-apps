@@ -1,4 +1,4 @@
-# aai-apps
+# ai-apps
 
 ## ChatGPT and AI
 
